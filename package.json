@@ -1,8 +1,8 @@
 {
-  "name": "react-swipe",
-  "version": "1.0.1",
+  "name": "react-swipper",
+  "version": "1.0.2",
   "description": "Brad Birdsall's swipe.js, as a React component",
-  "homepage": "https://github.com/jed/react-swipe",
+  "homepage": "https://github.com/michalradziwon/react-swipper",
   "keywords": [
     "react",
     "component",
@@ -12,7 +12,7 @@
   "author": "Jed Schmidt <where@jed.is>",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jed/react-swipe.git"
+    "url": "git://github.com/michalradziwon/react-swipper.git"
   },
   "main": "swipe.js",
   "license": "MIT",
@@ -26,7 +26,7 @@
   "scripts": {
     "build": "browserify swipe.js -t literalify -s Swipe -o demo/index.js"
   },
-  "dependencies": {
-    "react": "^0.11.1"
+  "peerDependencies": {
+    "react": ">=0.11.1"
   }
 }
